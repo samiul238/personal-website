@@ -1,6 +1,8 @@
 body{
     font-family:'Roboto Condensed', sans-serif;
 }
+ /* first section*/
+
 .main-nav{
     float: right;
     margin-top: 25px;
@@ -26,6 +28,7 @@ h2{
 }
 .half-width span{
     color:orangered;
+   
 }
 
 p{
@@ -57,13 +60,11 @@ p{
     border-radius: 6px;
     
 }
-
 .introduction-section{
     height: 660px;
-
 }
 
-
+ /* Second section*/
 .cv-section{
     height: 660px;
     
@@ -128,10 +129,11 @@ p{
     border-radius: 5px;
     text-align: center;
 }
-
-.work-inquiry{
+ /* fourth section */
+ .work-inquiry{
     height: 660px;
 }
+
 
 .chatting-box .box-text{
     position: absolute;
@@ -181,3 +183,66 @@ p{
     height:40px;
     display: inline-block;
 }
+
+
+ /* Extra Work */
+.extra-work{
+    width: 20%;
+    background-color:fff;
+    float: left;
+    margin-left: 3%;
+    padding: 1%;
+    height: 380px;
+   
+}
+.extra-work h3{
+    text-align: center;
+}
+.extra-work p{
+    color: #fff;
+}
+#comment1{
+    background-color:firebrick;
+    box-shadow: 10px 13px 55px black;
+    color: #fff;
+    border-radius: 20px;
+}
+#comment2{
+    background-color:mediumturquoise;
+    box-shadow: 10px 13px 55px black;
+    color: #fff;
+    border-radius: 20px;
+
+}
+#comment3{
+    background-color:lightblue;
+    box-shadow: 10px 13px 55px black;
+    color: #fff;
+    border-radius: 20px;
+}
+#comment4{
+    background-color:lightgrey;
+    box-shadow: 10px 13px 55px black;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.extra-work img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+   margin-top: 10px;
+   margin-left: 70px;
+}
+.comment h2{
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+    margin: 30px;
+}
+.comment{
+    height: 600px;
+}
+
+/* End */
